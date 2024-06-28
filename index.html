@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Khodam Generator</title>
+    <link rel="icon" href="assets/images/wallhaven-856dlk.png" type="image/png"> <!-- Ganti path sesuai dengan lokasi gambar ikon -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container" id="mainContainer">
+        <h1>Random Khodam Generator</h1>
+        <input type="text" id="nameInput" placeholder="Masukkan Nama Anda" autocomplete="off" />
+        <button onclick="generateKhodam()">Cek Khodam</button>
+    </div>
+
+    <div class="container" id="resultContainer" style="display: none;">
+        <h1>CEK KHODAM</h1>
+        <p>Khodam yang ada di dalam diri <span id="userName" class="highlight"></span><span class="colon">:</span></p>
+        <h2 id="khodamName"></h2>
+        <p>Jangan lupa share ke temanmu agar mereka tahu apa yang ada dalam dirimu!</p>
+        <button onclick="reset()">Ulangi</button>
+    </div>
+
+    <div class="watermark">
+        <span>github.com/Gamonly</span>
+        <br>
+        <span>tiktok.com/@bitchkiddoz</span>
+    </div>
+
+    <audio id="backgroundMusic" loop>
+        <source src="assets/music/masha-ultrafunk.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/tippy.js@6.3.7/dist/tippy-bundle.umd.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

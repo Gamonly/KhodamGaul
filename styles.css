@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+
+body {
+    font-family: 'Raleway', sans-serif;
+    background: url('assets/images/wallhaven-d5g7zm_1920x1080.jpg') no-repeat center center fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    color: white;
+}
+
+.container {
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 15px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+    padding: 30px;
+    max-width: 400px;
+    width: 100%;
+    transition: transform 0.3s ease;
+}
+
+.container:hover {
+    transform: scale(1.05);
+}
+
+input[type="text"] {
+    width: calc(100% - 24px);
+    padding: 12px;
+    margin: 12px 0;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    font-size: 16px;
+    transition: border 0.3s ease;
+}
+
+input[type="text"]:focus {
+    border: 2px solid #4CAF50;
+    outline: none;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+button:hover {
+    background-color: #45a049;
+    transform: scale(1.1);
+}
+
+#resultContainer h1 {
+    font-size: 28px;
+    color: #fff;
+}
+
+#resultContainer p {
+    font-size: 18px;
+    color: #bbb;
+}
+
+#resultContainer h2 {
+    font-size: 24px;
+    color: #fff;
+    margin: 20px 0;
+}
+
+.watermark {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    font-size: 14px;
+    text-align: right;
+    animation: rainbow 10s infinite alternate; /* Animasi pelangi */
+}
+
+@keyframes rainbow {
+    0% {
+        color: red;
+    }
+    20% {
+        color: orange;
+    }
+    40% {
+        color: yellow;
+    }
+    60% {
+        color: green;
+    }
+    80% {
+        color: blue;
+    }
+    100% {
+        color: purple;
+    }
+}
+
+.highlight {
+    color: #FFD700; /* Warna kuning emas */
+    font-weight: bold;
+    font-style: italic;
+}
+
+.colon {
+    color: white; /* Warna putih */
+    font-weight: bold;
+    font-style: italic;
+}
