@@ -26,11 +26,20 @@ const khodams = [
     { name: 'Kura-Kura Penghibur'},
     { name: 'Buaya Setia'},
     { name: 'Ubi Singset'},
-    { name: 'Anjing Lucu'},
+    { name: 'Anjing Sumbing'},
     { name: 'Bebek Ngigau'},
     { name: 'Tuyul Ngompol'},
     { name: 'Wajan Lepek'},
-
+    { name: 'Bekantan Nolep'},
+    { name: 'Kunti Tobrut'},
+    { name: 'Kunci Roda'},
+    { name: 'Piring Prasmanan'},
+    { name: 'Keset Welcome'},
+    { name: 'Egrek Sawit'},
+    { name: 'Kondom Bocor'},
+    { name: 'Gagak Cadel'},
+    { name: 'Gorila Sange'},
+    { name: 'Stik Rental'},
 
     // Tambahkan lebih banyak khodam sesuai kebutuhan
 ];
