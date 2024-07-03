@@ -3,7 +3,7 @@ const khodams = [
     { name: 'Sule Betawi'},
     { name: 'Lumba-Lumba Jawa'},
     { name: 'Laba-Laba Sunda'},
-    { name: 'Nyai Roro Kidul Montok'},
+    { name: 'Roro Kidul Montok'},
     { name: 'Musang King'},
     { name: 'Kuntilanak Lanang'},
     { name: 'Rawa Rontek'},
@@ -40,6 +40,11 @@ const khodams = [
     { name: 'Gagak Cadel'},
     { name: 'Gorila Sange'},
     { name: 'Stik Rental'},
+    { name: 'Tuyul Mulet'},
+    { name: 'Pler Kuda'},
+    { name: 'Cina Padang'},
+    { name: 'Pocong Gondrong'},
+    { name: 'Cicak Yatim'},
 
     // Tambahkan lebih banyak khodam sesuai kebutuhan
 ];
