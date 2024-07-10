@@ -45,6 +45,7 @@ const khodams = [
     { name: 'Cina Padang'},
     { name: 'Pocong Gondrong'},
     { name: 'Cicak Yatim'},
+    { name: 'Buaya Birahi'},
 
     // Tambahkan lebih banyak khodam sesuai kebutuhan
 ];
